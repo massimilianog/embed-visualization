@@ -11,6 +11,6 @@ origin: localhost:9100, frame-ancestors
 Web integration id: https://localhost:9100
 
 run:
-http-server --port 9100 -S -C cert.pem -o
+http-server --port 9100 -S -C cert.pem --cors
 
 browser: https://localhost:9100/
