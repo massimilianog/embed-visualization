@@ -6,11 +6,11 @@ for authentication followed the guide:
 Handling user sessions with iframes and enigma.js (interactive Identity Providers)
 
 CSP:
-origin: localhost:9100, frame-ancestors
+origin: localhost, frame-ancestors
 
-Web integration id: https://localhost:9100
+Web integration id: https://localhost
 
 run:
 http-server --port 443 -S -C cert.pem --cors
 
-browser: https://localhost:9100/
+browser: https://localhost
