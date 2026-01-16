@@ -10,8 +10,8 @@ Configure a Content Security Policy with the following values:
 - origin: localhost, frame-ancestors
 - Web integration id: https://localhost
 
-run:
-(first time only) install http-server, e.g. with npm install -g http-server
-run: http-server --port 443 -S -C cert.pem --cors
+Run locally:
+- (first time only) install http-server, e.g. with npm install -g http-server
+- run: http-server --port 443 -S -C cert.pem --cors
 
-browser: https://localhost
+Browser: https://localhost
